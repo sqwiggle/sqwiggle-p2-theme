@@ -25,9 +25,15 @@ q:before,q:after { content: ''; }
 a { text-decoration: none; }
 /* -------------------------------------------- */
 
+.p2-recent-comments img ,
 .p2-recent-mentions img {
 	border-radius: 18px;
 	margin-right: 10px;
+}
+
+.p2-recent-comments td, 
+.p2-recent-mentions td {
+	padding-bottom: 5px;
 }
 
 h1 a:hover {
