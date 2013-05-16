@@ -19,7 +19,7 @@
 <?php do_action( 'before' ); ?>
 
 	<div class="sleeve">
-		<h1><a href="<?php echo home_url( '/' ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+		<a href="<?php echo home_url( '/' ); ?>"><img src="/wp-content/uploads/2013/05/logo-discuss.png" width="120" height="43" /></a>
 		<?php if ( get_bloginfo( 'description' ) ) : ?>
 			<small><?php bloginfo( 'description' ); ?></small>
 		<?php endif; ?>
