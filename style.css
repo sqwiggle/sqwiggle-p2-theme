@@ -55,12 +55,15 @@ pre, code {
 	overflow: auto;
 }
 #header {
-	min-height: 120px;
+	min-height: 100px;
 	position: relative;
 }
 #header .sleeve {
 	display: inline-block;
 	margin-top: 40px;
+}
+#header .sleeve a:hover {
+	text-decoration: none;
 }
 h1 {
 	display: inline-block;
@@ -109,7 +112,7 @@ blockquote + blockquote {
 	margin-top: -3px;
 	padding: 0 12px 12px 12px;
 }
-#header .sleeve, #wrapper, #footer {
+#header #wrapper, #footer {
 	border: 0;
 	-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
@@ -1068,9 +1071,7 @@ h3 {
 #main #postlist .commentlist li.bypostauthor {
 	border-top-color: #b3c4df;
 }
-#header .sleeve {
-	background: #fff;
-}
+
 #header h1 a,
 #header small {
 	color: #3e92cd;
